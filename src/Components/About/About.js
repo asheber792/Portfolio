@@ -9,7 +9,7 @@ class About extends Component {
             <div className='info-title'> 
               <h1 className='about-title-text'>About Me</h1> 
             </div>
-            <div className='summary'>
+            <div className='about-summary'>
               <p>
                As a driven developer, I try to keep a calm, mature, and open-minded approach
               to the things I do, whether that be problem-solving within the code or simply 
