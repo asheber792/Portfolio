@@ -46,7 +46,7 @@ class Projects extends Component {
         await this.setState({
           title: "Consciousness Diversified",
           description: 
-            `A mobile app displaying information/instructions/techniques
+            `A mobile app displaying information / instructions / techniques
             of consciousness exploration in some of it's many capacites with methods such as
             lucid dreaming, meditation, binaural beats, etc. You will be able to create and maintain
             your own Experience/Dream Journal on you're profile, viewable only by you upon registration, 
