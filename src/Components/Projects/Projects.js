@@ -23,9 +23,9 @@ class Projects extends Component {
     }
   }
 
-  onSlideChange = async (e) => {
+  onSlideChanged = async (e) => {
 
-      if(e.item === 0){
+      if(e.slide === 1){
         await this.setState({
           title: "Garden of Battle",
           description: 
@@ -35,7 +35,7 @@ class Projects extends Component {
             key press actions. (Built in HTML/CSS/Javascript)`
         })
       }
-      else if(e.item === 1){
+      else if(e.slide === 2){
         await this.setState({
           title: "Huxley Collection App",
           description: `A Web App displaying the works of Aldous Huxley, providing quotes, book covers, titles, descriptions, etc.
@@ -67,12 +67,12 @@ class Projects extends Component {
               <div className='slider-container'>
               <AliceCarousel 
                   duration={1500}
-                  onSlideChange={this.onSlideChange}
+                  onSlideChanged={this.onSlideChanged}
                   disableAutoPlayOnAction={true}
                   mouseDragEnabled >
-                    <a href='https://expo.io/@asheber792/client'><img src={conDivPic} alt='project photo 1' className='project-image' /></a>
-                    <a href='https://pages.git.generalassemb.ly/asheber792/project-1/garden-of-battle/'><img src={gobPic} alt='project photo 2' className='project-image' /></a>
-                    <a href='http://huxley-collection.surge.sh/'><img src={hcPic} alt='project photo 3' className='project-image' /></a>
+                    <a href='https://expo.io/@asheber792/client'><img src={conDivPic} alt='project cover 1' className='project-image' /></a>
+                    <a href='https://pages.git.generalassemb.ly/asheber792/project-1/garden-of-battle/'><img src={gobPic} alt='project cover 2' className='project-image' /></a>
+                    <a href='http://huxley-collection.surge.sh/'><img src={hcPic} alt='project cover 3' className='project-image' /></a>
                 </AliceCarousel>
               </div>
               
