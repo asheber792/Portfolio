@@ -1,0 +1,37 @@
+.main-container {
+	display: flex; 
+	flex-direction: row; 
+	margin-top: 5%;
+	height: 70vh;
+}
+.img-container {
+	flex: 1;
+	width: 25%;
+}
+.display-pic {
+	height: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+	border-radius: 2%;
+}
+.info-title {
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+}
+.title-one {
+	font-size: 36pt;
+	margin-left: -55%;
+}
+.title-two {
+	font-size: 38pt;
+	margin-left: 25%;
+	font: italic bold 'PT Sans', sans-serif;
+	color: #ffccc9;
+}
+.info-summary {
+	font-family: 'Raleway', sans-serif;
+	padding: 5%;
+	margin-top: 5%;
+	font-size: 16pt;
+	box-shadow: 2px 2px 15px #ffccc9;
+}

@@ -1,0 +1,48 @@
+.projects-title-text {
+	font-size: 38pt;
+	font: italic bold 'PT Sans', sans-serif;
+	color: #ffccc9;
+	margin-bottom: 2%;
+}
+
+.gallery-container {
+	display: flex;
+}
+
+.project-gallery {
+	width: 40%;	
+	margin: 0 auto;
+	padding: 1%;
+	flex: 2;
+}
+
+.project-info{
+	flex: 1;
+}
+
+.project-image{
+	height: 450px;
+	width: 100%;
+	margin: inherit;
+}
+
+.project-title {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 22pt;
+}
+
+.project-descrip {
+	padding: 2%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item {
+	color: white !important;
+}
+
+.alice-carousel__prev-btn-item :hover, .alice-carousel__next-btn-item :hover{
+	text-shadow: 2px 2px 2px #ffccc9 !important;
+}

@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: Chev-Stripes;
+	src: url('../../assets/fonts/Chev-Stripes-Regular.ttf');
+}
+
+.header-container {
+	display: flex;
+	flex-direction: row;
+	background: black;
+	padding: 1%;
+	border-radius: 1%;
+	box-shadow: 5px 2px 15px #ffccc9;
+}
+
+.header-title {
+	font-family: Chev-Stripes;
+	flex: 4;
+	margin-left: 2%;
+	font-size: 30pt;
+	color: white;
+}
+.header-link {
+	text-decoration: none;
+	color: white;
+}
+
+.header-nav{
+	flex: 1;
+}
+
+.nav-items {
+	display: flex; 
+	flex-direction: row;
+	list-style-type: none;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18pt;
+	margin-top: 4%;
+	text-align: center;
+}
+
+
+.nav-item {
+	flex: 1;
+	text-decoration: none;
+	color: white; 
+}
+.nav-item :hover {
+	text-shadow: 2px 2px 2px #ffccc9;
+}
