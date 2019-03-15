@@ -56,14 +56,6 @@ class Projects extends Component {
   }
 
   render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
-
     return (
       <div className='projects-container'>
         <div className='info-container'> 
@@ -78,9 +70,9 @@ class Projects extends Component {
                   onSlideChange={this.onSlideChange}
                   disableAutoPlayOnAction={true}
                   mouseDragEnabled >
-                    <a href='https://expo.io/@asheber792/client'><img src={conDivPic} className='project-image' /></a>
-                    <a href='https://pages.git.generalassemb.ly/asheber792/project-1/garden-of-battle/'><img src={gobPic} className='project-image' /></a>
-                    <a href='http://huxley-collection.surge.sh/'><img src={hcPic} className='project-image' /></a>
+                    <a href='https://expo.io/@asheber792/client'><img src={conDivPic} alt='project photo 1' className='project-image' /></a>
+                    <a href='https://pages.git.generalassemb.ly/asheber792/project-1/garden-of-battle/'><img src={gobPic} alt='project photo 2' className='project-image' /></a>
+                    <a href='http://huxley-collection.surge.sh/'><img src={hcPic} alt='project photo 3' className='project-image' /></a>
                 </AliceCarousel>
               </div>
               
