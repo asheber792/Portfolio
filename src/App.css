@@ -9,11 +9,3 @@ body {
 	padding: 3%;
 	z-index: 2;
 }
-
-.summary {
-	font-family: 'Raleway', sans-serif;
-	padding: 3%;
-	margin-top: 2%;
-	font-size: 16pt;
-	box-shadow: 2px 2px 15px #ffccc9;
-}
