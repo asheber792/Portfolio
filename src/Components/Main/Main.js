@@ -16,7 +16,7 @@ class Main extends Component {
             </div>
             <p className='info-summary'>
               A diligent and professional web developer looking to further improve his abilities and 
-              contribute to an organizations web presence as well as assist at any level of the 
+              contribute to an organization's web presence as well as assist at any level of the 
               development life cycle if need be. Well versed in customer-oriented work and dealing 
               with all types of people. Ready and willing to face any challenge with integrity and 
               with certainty to persevere.
