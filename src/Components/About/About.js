@@ -34,7 +34,7 @@ class About extends Component {
               <p>
                 <b>Resume: </b> <br />
                 <a 
-                  href='https://drive.google.com/file/d/1_oeXxj9NSEdSiZtmwsSS9WtpkUGkf9YA/view' 
+                  href='https://drive.google.com/file/d/1_oeXxj9NSEdSiZtmwsSS9WtpkUGkf9YA/view?usp=sharing' 
                   className='resume-icon'>
                     <i className="far fa-file-alt fa-3x"></i>
                 </a>
