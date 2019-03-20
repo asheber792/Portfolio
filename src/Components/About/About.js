@@ -22,6 +22,11 @@ class About extends Component {
               products and projects that will benefit all people. 
               </p> <br />
               <p>
+                <b>Skills:</b> <br />
+                HTML5, CSS3, JavaScript, JQuery, ReactJS, React Native, SQL, Sequelize, Express, 
+                Ruby, Ruby on Rails, Java, PHP, Wordpress, Drupal, Bootstrap, Node.js
+              </p> <br />
+              <p>
                 <b>Contact Info:</b> <br />
                 Phone #: Cell (646) 201-6219 / Home (718) 348-8368 <br /> 
                 Email: asheber_arlain@yahoo.com / asheberarlain@gmail.com
@@ -29,7 +34,7 @@ class About extends Component {
               <p>
                 <b>Resume: </b> <br />
                 <a 
-                  href='https://drive.google.com/file/d/1YDgblircCUxpt4CjzHhb2sL-Mcr0cZHT/view' 
+                  href='https://drive.google.com/file/d/1_oeXxj9NSEdSiZtmwsSS9WtpkUGkf9YA/view' 
                   className='resume-icon'>
                     <i className="far fa-file-alt fa-3x"></i>
                 </a>

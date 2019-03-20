@@ -18,8 +18,8 @@ class Projects extends Component {
         `A mobile app displaying information / instructions / techniques
         of consciousness exploration in some of it's many capacites with methods such as
         lucid dreaming, meditation, binaural beats, etc. You will be able to create and maintain
-        your own Experience/Dream Journal on you're profile, viewable only by you, to aid in your
-        journey.`
+        your own Experience/Dream Journal on you're profile, viewable only by you upon registration, 
+        to aid in your journey. (Built in: Client-side - <strong>React Native</strong> / Server-Side: <strong>Ruby on Rails</strong>)`
     }
   }
 
@@ -32,14 +32,14 @@ class Projects extends Component {
             `Grid based figher game where the player can 
             move his character around the grid where enemies will be placed and can be 
             defeated through quick time event -esque (https://en.wikipedia.org/wiki/Quick_time_event) 
-            key press actions. (Built in HTML/CSS/Javascript)`
+            key press actions. (Built in <strong>HTML/CSS/Javascript</strong>)`
         })
       }
       else if(e.slide === 2){
         await this.setState({
           title: "Huxley Collection App",
           description: `A Web App displaying the works of Aldous Huxley, providing quotes, book covers, titles, descriptions, etc.
-          (Built in React and pulling data from external API's)`
+          (Built in <strong>React</strong> and pulling data from <strong>external API's</strong>)`
         })
       }
       else{
@@ -50,7 +50,7 @@ class Projects extends Component {
             of consciousness exploration in some of it's many capacites with methods such as
             lucid dreaming, meditation, binaural beats, etc. You will be able to create and maintain
             your own Experience/Dream Journal on you're profile, viewable only by you upon registration, 
-            to aid in your journey. (Built in: Client-side - React Native / Server-Side: Ruby on Rails)`
+            to aid in your journey. (Built in: Client-side - <strong>React Native</strong> / Server-Side: <strong>Ruby on Rails</strong>)`
         })
       } 
   }
@@ -79,7 +79,7 @@ class Projects extends Component {
             </div>
             <div className='project-info'>
                 <h3 className='project-title'>{this.state.title}</h3>
-                <p className='project-descrip'>{this.state.description}</p>
+                <p className='project-descrip' dangerouslySetInnerHTML={{__html: this.state.description}}></p>
             </div>
             </div>
         </div> 
