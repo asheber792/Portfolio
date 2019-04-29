@@ -50,3 +50,14 @@
         }
     }
 }
+
+@media only screen 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+	  /* .main-container { 
+		flex-direction: column;
+	  }
+	  .display-pic {
+		  height: 20%;
+	  } */
+}
