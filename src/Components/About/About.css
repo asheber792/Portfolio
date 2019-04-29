@@ -16,3 +16,17 @@
 	font-size: 16pt;
 	box-shadow: 2px 2px 15px #ffccc9;
 }
+
+@media only screen 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+	.about-title-text {
+		font-size: 24pt; 
+		margin-top: 2%; 
+	}
+
+	.about-summary {
+		font-size: 12pt; 
+		margin: 25px; 
+	}
+}

@@ -21,10 +21,12 @@
   and (max-device-width: 480px)
   and (orientation: portrait) {
 	.footer {
-		margin-bottom: 5%; 
+		margin-bottom: 8%;
+		z-index: -5;  
 	}
 
 	.li-link:last-child {
-		margin-right: 15%;
+		margin-right: 18%;
+		z-index: -5; 
 	}
 }
