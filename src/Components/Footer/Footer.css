@@ -16,3 +16,15 @@
 .li-link:last-child {
 	margin-right: 4%;
 }
+
+@media only screen 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+	.footer {
+		margin-bottom: 5%; 
+	}
+
+	.li-link:last-child {
+		margin-right: 15%;
+	}
+}
