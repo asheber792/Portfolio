@@ -46,3 +46,29 @@
 .alice-carousel__prev-btn-item :hover, .alice-carousel__next-btn-item :hover{
 	text-shadow: 2px 2px 2px #ffccc9 !important;
 }
+
+@media only screen 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+	.projects-title-text {
+		font-size: 24pt; 
+		margin-top: 2%; 
+	}
+
+	.gallery-container { 
+		flex-direction: column; 
+	}
+
+	.project-gallery {
+		width: 100%;
+		margin-bottom: -25px; 
+	}
+
+	.project-image {
+		height: 300px;
+	}
+
+	.project-descrip {
+		margin-bottom: 20%; 
+	}
+}
